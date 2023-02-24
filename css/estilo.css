@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Babylonica&family=Fjalla+One&family=Gwendolyn&family=Indie+Flower&family=La+Belle+Aurore&family=Lobster&family=Niconne&family=Roboto:ital,wght@0,300;0,400;1,400&family=Zeyada&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.conteudoHeader {
+	background: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url('../imagens/fundo-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 70vh;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+	display: flex;
+}
+
+.conteudoLar h1 {
+	font-size: 4em;
+	color: #FF1493;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+
+.conteudoLar p {
+	font-size: 1.1em;
+	margin-top: 2em;
+	color: #FBF4F8;
+}
+
+.conteudoFormulario {
+	width: 215px;
+	height: 345px;
+	background: #F4F2F3;
+	text-align: center;
+	margin-top: 0.8em;
+	padding-top: 0.5em;
+}
+
+.conteudoFormulario p {
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+.conteudoFormulario label {
+	font-size: 1.3em;
+	margin-top: 0.7em;
+}
+
+.conteudoFormulario input {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.conteudoFormulario button {
+	font-size: 0.9em;
+	margin-top: 0.5em;
+	padding: 0.8em 0.8em;
+	background-color: #FF1493;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.conteudoFormulario button:hover {
+	border: 0.5px solid #FF1493;
+	background: transparent;
+	color: #FF1493;
+	transition: all 0.8s ease;
+}
+
+/********************************************************/
+
+.secaoPostagem {
+	width: 100vw;
+	height: 60vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.postagem-1 {
+	background: linear-gradient(rgba(69, 69, 69, 0.8), rgba(69, 69, 69, 0.8)), url('../imagens/cozinha.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 250px;
+	height: 250px;
+	border: 1px solid;
+	border-radius: 50%;
+}
+
+.postagem-2 {
+	background: linear-gradient(rgba(69, 69, 69, 0.8), rgba(69, 69, 69, 0.8)), url('../imagens/sala.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 250px;
+	height: 250px;
+	border: 1px solid;
+	margin-left: 10em;
+	border-radius: 50%;
+}
+
+.postagem-3 {
+	background: linear-gradient(rgba(69, 69, 69, 0.8), rgba(69, 69, 69, 0.8)), url('../imagens/quarto.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 250px;
+	height: 250px;
+	border: 1px solid;
+	margin-left: 10em;
+	border-radius: 50%;
+}
+
+.caixaPostagem {
+	width: 320px;
+	height: 160px;
+	margin-left: -2.0em;
+	margin-top: 15.8em;
+	text-align: center;
+}
+
+.caixaPostagem h2 {
+	color: #FF1493;
+	margin-bottom: 0.5em;
+}
+
+.caixaPostagem p {
+	margin-bottom: 0.5em;
+}
+
+.caixaPostagem a {
+	color: #FF1493;
+}
+
+.caixaPostagem a:hover {
+	color: #000;
+	transition: all 0.8s ease;
+}
+
+/************************************************************/
+
+.secaoPostagem-2 {
+	background: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url('../imagens/escritorio.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 70vh;
+	margin-top: 10em;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.secaoPostagem-2 h1 {
+	color: #FF1493;
+	font-size: 4em;
+	margin-bottom: 0.1em;
+}
+
+.secaoPostagem-2 p {
+	color: #fff;
+	font-size: 1.2em;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+/************************************************************/
+
+.secaoPostagem-3 {
+	width: 100vw;
+	height: 50vh;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+}
+
+.secaoPostagem-3 a {
+	color: #FF1493;
+}
+
+.paragrafoTexto {
+	width: 40vw;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.paragrafoTexto h2 {
+	margin-bottom: 0.5em;
+	font-size: 1.8em;
+	color: #FF1493;
+}
+
+/************************************************************/
+
+.secaoPostagem-4 {
+	width: 100vw;
+	height: 50vh;
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+}
+
+.secaoPostagem-4 a {
+	color: #FF1493;
+}
+
+/************************************************************/
+
+.secaoPostagem-5 {
+	width: 100vw;
+	height: 50vh;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+}
+
+/************************************************************/
+
+.rodape {
+	width: 100vw;
+	height: 60vh;
+	background: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url('../imagens/img-rodape.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.tituloRodape {
+	font-size: 2.7em;
+	font-family: 'Lobster', cursive;
+	justify-content: center;
+	display: flex;
+	color: #FF1493;
+}
+
+.tituloRodape h1 {
+	margin-top: 1.4em;
+}
+
+.copy {
+	color: #fff;
+	justify-content: center;
+	display: flex;
+	margin-top: 3.5em;
+}
+
+/************************************************************/ 
+
+@media (max-width: 450px) {
+	.conteudoHeader {
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+	}
+
+	.conteudoHeader h1 {
+		padding: 0.5em;
+	}
+
+	.conteudoHeader label {
+		font-size: 1.3em;
+	}
+
+	.conteudoFormulario {
+		margin-bottom: 1em;
+	}
+
+	.secaoPostagem {
+		flex-direction: column;
+		height: auto;
+		margin-top: 0.5em;
+		text-align: center;
+	}
+
+	.postagem-1 ul {
+		padding-top: 0.5em;
+	}
+
+	.postagem-2 {
+		margin-top: 11em;
+		margin-right: 9em;
+	}
+
+	.postagem-3 {
+		margin-top: 10.5em;
+		margin-right: 8em;
+	}
+
+	.secaoPostagem-2 {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.secaoPostagem-2 h1 {
+		text-align: center;
+		font-size: 2em;
+	}
+
+	.secaoPostagem-2 p {
+		text-align: center;
+		padding: 0 0.5em;
+	}
+
+	.secaoPostagem-3 {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.secaoPostagem-3 {
+		text-align: center;
+	}
+
+	.secaoPostagem-4 h2 {
+		flex-direction: column;
+		height: auto;
+		padding: 0 2em;
+		margin-left: -12.6em;
+	}
+
+	.secaoPostagem-4 p {
+		flex-direction: column;
+		margin-left: -23em;
+		mar
+		padding: 0 0.5em;
+	}
+
+	.secaoPostagem-4 img {
+		flex-direction: column;
+		margin-top: 28em;
+		margin-left: 2em;
+	}
+
+	.secaoPostagem-5 {
+		flex-direction: column;
+		height: auto;
+		margin-top: 12em;
+	}
+
+	.secaoPostagem-5 h2 {
+		text-align: center;
+	}
+
+	.secaoPostagem-5 p {
+		text-align: center;
+	}
+
+	.rodape {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.tituloRodape {
+		font-size: 2em;
+	}
+
+	.copy {
+		text-align: center;
+		padding-bottom: 1em;
+	}
+}
+
+/************************************************************/ 
